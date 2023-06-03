@@ -22,10 +22,10 @@
         <div id="elemento">
             
               <input type="checkbox" name="" id="" onchange="completed(event)">
-              <p>Beber 2L de agua</p>
+              <p contenteditable="false">Beber 2L de agua</p>
             
             <div class="acciones">
-              <button >Editar</button>
+              <button onclick="editTask(event)">Editar</button>
               <button onclick="deleteTask(event)">Eliminar</button>
             </div>
               
@@ -35,13 +35,14 @@
           <div id="elemento">
             
               <input type="checkbox" name="" id="" onchange="completed(event)">
-              <p>Mandar documentos de beca</p>
+              <p contenteditable="false">Mandar documentos de beca</p>
             
             <div class="acciones">
-              <button >Editar</button>
+              <button onclick="editTask(event)"">Editar</button>
               <button onclick="deleteTask(event)">Eliminar</button>
             </div>
           </div>
+          
     </div>
     <div class="derecha">
         <div class="encabezado">
